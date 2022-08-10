@@ -1,0 +1,45 @@
+.wrapper {
+  font-family: Arial;
+}
+
+table,
+th,
+td {
+  border: 1px solid #c9c8c5;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #eaeaea;
+}
+
+tr:nth-child(even) {
+  background-color: #d6d6d6;
+}
+
+tr:nth-child(odd) {
+  background-color: #ebebeb;
+}
+
+.bord {
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
+}
+
+#name {
+  border-top: 2px solid #000000;
+}
+
+#pluto {
+  border-bottom: 2px solid #000000;
+}
+
+.link {
+  color: #0000ff;
+  cursor: pointer;
+}
